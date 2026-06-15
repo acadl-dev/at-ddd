@@ -1,0 +1,15 @@
+package com.acadl.musicstreaming.subscription.repository;
+
+import com.acadl.musicstreaming.subscription.domain.Subscription;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+import java.util.UUID;
+
+public interface SubscriptionRepository
+        extends JpaRepository<Subscription, UUID> {
+
+    Optional<Subscription> findByUserIdAndActiveTrue(
+            UUID userId
+    );
+}
