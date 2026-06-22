@@ -1,6 +1,6 @@
 # 🎵 Music Streaming Platform – DDD + Spring Boot
 
-Como proposto no enunciado da atividade o seguinte proeto foi dividido em duas partes. A primeira pode ser verificada no item **Diagrama de Context Map (DDD)** e a segunda e parte do código desenvolvida para atender os requsiitos a atividade.
+Como proposto no enunciado da atividade o seguinte prjeto foi dividido em duas partes. A primeira pode ser verificada no item **Diagrama de Context Map (DDD)** e a segunda é a parte do código.
 
 Este é um sistema acadêmico simulando uma plataforma de streaming de música com foco em **Domain-Driven Design (DDD)**, **Design Patterns** e **arquitetura em camadas com contextos isolados**.
 
@@ -211,12 +211,15 @@ Payment Context (Antifraude)
 
 ## 🧩 Padrões de Projeto Aplicados
 
-✔ Strategy Pattern (Fraud Rules)
-✔ Repository Pattern
-✔ Domain Service
-✔ Use Case Pattern
-✔ Anti-Corruption Layer
-✔ Domain-Driven Design (DDD)
+| Padrão | Aplicação |
+|---|---|
+| ✔️ Strategy Pattern | Fraud Rules |
+| ✔️ Repository Pattern | Persistência por contexto |
+| ✔️ Domain Service | Regras isoladas do domínio |
+| ✔️ Use Case Pattern | Orquestração de fluxos |
+| ✔️ Anti-Corruption Layer | Isolamento entre contextos |
+| ✔️ Domain-Driven Design | Arquitetura geral |
+
 
 ## 📐 Conceitos de DDD Aplicados
 
@@ -245,7 +248,7 @@ Modelagem orientada ao domínio
 
 O objetivo principal é manter um sistema:
 
-escalável
-modular
-testável
-e alinhado com boas práticas de engenharia de software.
+- escalável
+- modular
+- testável
+- e alinhado com boas práticas de engenharia de software.
