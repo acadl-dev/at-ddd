@@ -164,17 +164,21 @@ Exemplos de body:
 
 - Para criar plano:
 
+``` 
 {
   "userId": "UUID"
 }
+```
 
 - Para autorizar transação:
 
+```
 {
   "userId": "UUID",
   "merchant": "Spotify Premium",
   "amount": 29.90
 }
+```
 
 Para testes o cartão de crédito precisa ser inserido manualmente:
 
