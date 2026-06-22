@@ -1,6 +1,8 @@
 # 🎵 Music Streaming Platform – DDD + Spring Boot
 
-Sistema acadêmico simulando uma plataforma de streaming de música com foco em **Domain-Driven Design (DDD)**, **Design Patterns** e **arquitetura em camadas com contextos isolados**.
+Como proposto no enunciado da atividade o seguinte proeto foi dividido em duas partes. A primeira pode ser verificada no item **Diagrama de Context Map (DDD)** e a segunda e parte do código desenvolvida para atender os requsiitos a atividade.
+
+Este é um sistema acadêmico simulando uma plataforma de streaming de música com foco em **Domain-Driven Design (DDD)**, **Design Patterns** e **arquitetura em camadas com contextos isolados**.
 
 ---
 
@@ -124,9 +126,9 @@ cd music-streaming-ddd
 Acessar H2 Database:
 ```http://localhost:8081/h2-console```
 
-User Name: atddd
+**User Name:** atddd
 
-Password: teste
+**Password:** teste
 
 
 ## 📡 Endpoints da API
@@ -216,35 +218,20 @@ Payment Context (Antifraude)
 ✔ Anti-Corruption Layer
 ✔ Domain-Driven Design (DDD)
 
-## 🧠 Conceitos de DDD Aplicados
+## 📐 Conceitos de DDD Aplicados
 
-✔ Bounded Contexts
+**✔️ Bounded Contexts**
+> Separação clara entre domínio de conta, assinatura e pagamento.
 
-Separação clara entre domínio de conta, assinatura e pagamento.
+**✔️ Ubiquitous Language**
+> Termos consistentes como `Subscription`, `Transaction`, `Credit Card`, `Fraud Rule`.
 
-✔ Ubiquitous Language
+**✔️ Domain Services**
+> Regras complexas isoladas do domínio das entidades.
 
-Termos consistentes como:
+**✔️ Aggregates**
+> `User` · `Subscription` · `Transaction` · `CreditCard`
 
-Subscription
-Transaction
-Credit Card
-Fraud Rule
-✔ Domain Services
-
-Regras complexas isoladas do domínio das entidades.
-
-✔ Aggregates
-User
-Subscription
-Transaction
-CreditCard
-
-## 🔐 Regras Antifraude
-
-Card must be active
-Max 3 transactions in 2 minutes
-Max 2 identical transactions in 2 minutes
 
 ## 📌 Conclusão
 
