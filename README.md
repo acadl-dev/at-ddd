@@ -81,7 +81,7 @@ CatalogContext -->|External Source| MusicProvider
 ## 🧱 Estrutura do projeto
 
 src/main/java/com/acadl/musicstreaming
-
+```
 ├── account
 │   ├── controller
 │   ├── domain
@@ -104,7 +104,7 @@ src/main/java/com/acadl/musicstreaming
 
 └── shared
     └── exception
-
+```
 
 ## ⚙️ Tecnologias Utilizadas
 
