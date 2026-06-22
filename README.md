@@ -182,7 +182,7 @@ Exemplos de body:
 
 Para testes o cartão de crédito precisa ser inserido manualmente:
 
-
+``` sql
 INSERT INTO credit_cards
 (id, user_id, card_number, active)
 
@@ -193,6 +193,7 @@ RANDOM_UUID(),
 '123456789',
 true
 );
+```
 
 
 
