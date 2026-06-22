@@ -155,10 +155,12 @@ Exemplos de body:
  
 - Para criar conta:
 
-```{
+``` 
+{
   "name": "User Name",
   "email": "user@email.com"
-}```
+} 
+```
 
 - Para criar plano:
 
