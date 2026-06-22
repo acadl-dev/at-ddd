@@ -117,12 +117,12 @@ src/main/java/com/acadl/musicstreaming
 - Lombok
 
 ## 🚀 Como Executar o Projeto
-
+```bash
 git clone https://github.com/seu-repositorio/music-streaming-ddd.git
 cd music-streaming-ddd
-
+```
 Acessar H2 Database:
-http://localhost:8081/h2-console
+```http://localhost:8081/h2-console```
 
 User Name: atddd
 Password: teste
