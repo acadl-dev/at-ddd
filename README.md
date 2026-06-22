@@ -30,6 +30,7 @@ A arquitetura foi projetada utilizando **Bounded Contexts independentes**, segui
 
 ## 🏗️ Diagrama de Context Map (DDD)
 
+```mermaid
 flowchart LR
 
 %% =========================
@@ -72,6 +73,9 @@ MusicProvider[Music Provider API]
 
 PaymentContext -->|External Gateway| PaymentGateway
 CatalogContext -->|External Source| MusicProvider
+```
+
+---
 
 
 ## 🧱 Estrutura do projeto
