@@ -133,9 +133,6 @@ Acessar H2 Database:
 
 ## 📡 Endpoints da API
 
-
-##  Endpoints
-
 ### Account
 | Método | Endpoint | Descrição |
 |---|---|---|
