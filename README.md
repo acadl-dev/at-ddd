@@ -125,6 +125,7 @@ Acessar H2 Database:
 ```http://localhost:8081/h2-console```
 
 User Name: atddd
+
 Password: teste
 
 
@@ -154,10 +155,10 @@ Exemplos de body:
  
 - Para criar conta:
 
-{
+```{
   "name": "User Name",
   "email": "user@email.com"
-}
+}```
 
 - Para criar plano:
 
